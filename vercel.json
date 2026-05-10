@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/blacklist/view/:path*",
+      "destination": "https://blacklistbeta.vercel.app/:path*"
+    }
+  ]
+}
