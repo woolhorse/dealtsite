@@ -49,6 +49,10 @@
       "destination": "https://blacklistbeta.vercel.app/blacklist/api/discord-user"
     },
     {
+      "source": "/api/auth",
+      "destination": "https://blacklistbeta.vercel.app/blacklist/api/auth"
+    },
+    {
       "source": "/favicon.ico",
       "destination": "https://blacklistbeta.vercel.app/blacklist/favicon.ico"
     }
