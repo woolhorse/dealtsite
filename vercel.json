@@ -3,6 +3,26 @@
     {
       "source": "/blacklist/view/:path*",
       "destination": "https://blacklistbeta.vercel.app/:path*"
+    },
+    {
+      "source": "/blacklist/login/:path*",
+      "destination": "https://blacklistbeta.vercel.app/login/:path*"
+    },
+    {
+      "source": "/blacklist/admin/:path*",
+      "destination": "https://blacklistbeta.vercel.app/admin/:path*"
+    },
+    {
+      "source": "/blacklist/api/:path*",
+      "destination": "https://blacklistbeta.vercel.app/api/:path*"
+    },
+    {
+      "source": "/blacklist/partner/:path*",
+      "destination": "https://blacklistbeta.vercel.app/partner/:path*"
+    },
+    {
+      "source": "/blacklist/request/:path*",
+      "destination": "https://blacklistbeta.vercel.app/request/:path*"
     }
   ]
 }
