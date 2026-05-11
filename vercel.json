@@ -9,24 +9,40 @@
       "destination": "https://blacklistbeta.vercel.app/blacklist"
     },
     {
+      "source": "/blacklist/login",
+      "destination": "https://blacklistbeta.vercel.app/blacklist/login"
+    },
+    {
       "source": "/blacklist/login/:path*",
       "destination": "https://blacklistbeta.vercel.app/blacklist/login/:path*"
+    },
+    {
+      "source": "/blacklist/request",
+      "destination": "https://blacklistbeta.vercel.app/blacklist/request"
+    },
+    {
+      "source": "/blacklist/request/:path*",
+      "destination": "https://blacklistbeta.vercel.app/blacklist/request/:path*"
+    },
+    {
+      "source": "/blacklist/admin",
+      "destination": "https://blacklistbeta.vercel.app/blacklist/admin"
     },
     {
       "source": "/blacklist/admin/:path*",
       "destination": "https://blacklistbeta.vercel.app/blacklist/admin/:path*"
     },
     {
-      "source": "/blacklist/api/:path*",
-      "destination": "https://blacklistbeta.vercel.app/blacklist/api/:path*"
+      "source": "/blacklist/partner",
+      "destination": "https://blacklistbeta.vercel.app/blacklist/partner"
     },
     {
       "source": "/blacklist/partner/:path*",
       "destination": "https://blacklistbeta.vercel.app/blacklist/partner/:path*"
     },
     {
-      "source": "/blacklist/request/:path*",
-      "destination": "https://blacklistbeta.vercel.app/blacklist/request/:path*"
+      "source": "/blacklist/api/:path*",
+      "destination": "https://blacklistbeta.vercel.app/blacklist/api/:path*"
     },
     {
       "source": "/api/discord-user",
