@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/blacklist/_next/:path*",
+      "destination": "https://blacklistbeta.vercel.app/_next/:path*"
+    },
+    {
       "source": "/blacklist/view/:path*",
       "destination": "https://blacklistbeta.vercel.app/:path*"
     },
