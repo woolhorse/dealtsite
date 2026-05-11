@@ -5,8 +5,8 @@
       "destination": "https://blacklistbeta.vercel.app/blacklist/_next/:path*"
     },
     {
-      "source": "/blacklist/view/:path*",
-      "destination": "https://blacklistbeta.vercel.app/blacklist/:path*"
+      "source": "/blacklist/view",
+      "destination": "https://blacklistbeta.vercel.app/blacklist"
     },
     {
       "source": "/blacklist/login/:path*",
